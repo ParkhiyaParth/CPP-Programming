@@ -1,0 +1,1 @@
+{"name":"Local: Ilya_and_Queries","url":"e:\\C++ Programming\\CodeForces\\AskSenior\\Ilya_and_Queries.cpp","tests":[{"id":1725218372550,"input":"......\n4\n3 4\n2 3\n1 6\n2 6\n","output":"1\n1\n5\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\CodeForces\\AskSenior\\Ilya_and_Queries.cpp","group":"local","local":true}

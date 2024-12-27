@@ -1,0 +1,1 @@
+{"name":"Local: Comparison_String","url":"e:\\C++ Programming\\CodeForces\\CP-31 900\\Comparison_String.cpp","tests":[{"id":1721983804206,"input":"4\n4\n<<>>\n4\n>><<\n5\n>>>>>\n7\n<><><><\n","output":"3\n3\n6\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\CodeForces\\CP-31 900\\Comparison_String.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Odd_Divisor","url":"e:\\C++ Programming\\CodeForces\\CP-31 900\\Odd_Divisor.cpp","tests":[{"id":1723093047426,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776\n","output":"NO\nYES\nNO\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\CodeForces\\CP-31 900\\Odd_Divisor.cpp","group":"local","local":true}

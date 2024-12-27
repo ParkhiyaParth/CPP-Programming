@@ -1,0 +1,1 @@
+{"name":"Local: Generate_Permutation","url":"e:\\C++ Programming\\CodeForces\\Problems\\Generate_Permutation.cpp","tests":[{"id":1724264073960,"input":"3\n1\n2\n3\n","output":"1\n-1\n3 1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\CodeForces\\Problems\\Generate_Permutation.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Piano_3","url":"e:\\C++ Programming\\AtCoder\\Piano_3.cpp","tests":[{"id":1725108205758,"input":"8\n22 L\n75 L\n26 R\n45 R\n72 R\n81 R\n47 L\n29 R\n","output":"188\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\AtCoder\\Piano_3.cpp","group":"local","local":true}

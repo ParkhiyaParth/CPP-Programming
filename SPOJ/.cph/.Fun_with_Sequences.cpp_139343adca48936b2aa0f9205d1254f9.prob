@@ -1,0 +1,1 @@
+{"name":"Local: Fun_with_Sequences","url":"e:\\C++ Programming\\SPOJ\\Fun_with_Sequences.cpp","tests":[{"id":1723716245638,"input":"5\n-2 -1 0 1 4\n6\n-3 -2 -1 1 2 3","output":"0 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\SPOJ\\Fun_with_Sequences.cpp","group":"local","local":true}

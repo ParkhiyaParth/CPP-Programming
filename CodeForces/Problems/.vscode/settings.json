@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp",
+        "numeric": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

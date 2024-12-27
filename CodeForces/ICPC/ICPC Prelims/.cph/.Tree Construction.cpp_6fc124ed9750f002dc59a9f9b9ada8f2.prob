@@ -1,0 +1,1 @@
+{"name":"Local: Tree Construction","url":"e:\\C++ Programming\\CodeForces\\ICPC\\ICPC Prelims\\Tree Construction.cpp","tests":[{"id":1731760936769,"input":"2\n3 2 3\n4 2 3\n","output":"-1\n1 2\n1 3\n1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\CodeForces\\ICPC\\ICPC Prelims\\Tree Construction.cpp","group":"local","local":true}

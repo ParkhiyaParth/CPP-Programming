@@ -1,0 +1,1 @@
+{"name":"Local: Life_the_Universe_and_Everything","url":"e:\\C++ Programming\\SPOJ\\Life_the_Universe_and_Everything.cpp","tests":[{"id":1723715205687,"input":"1\n2\n88\n42\n99","output":"1\n2\n88"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ Programming\\SPOJ\\Life_the_Universe_and_Everything.cpp","group":"local","local":true}
