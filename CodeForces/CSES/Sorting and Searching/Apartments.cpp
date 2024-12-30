@@ -3,32 +3,6 @@
 #define ll long long
 #define MOD 1000000007
 using namespace std;
-bool BS(vector<ll> &b, ll x)
-{
-    ll low = 0;
-    ll high = b.size() - 1;
-    if (low == x || high == x)
-    {
-        return true;
-    }
-    while (low <= high)
-    {
-        ll mid = low + (high - low) / 2;
-        if (b[mid] == x)
-        {
-            return true;
-        }
-        else if (b[mid] < x)
-        {
-            low = mid + 1;
-        }
-        else
-        {
-            high = mid - 1;
-        }
-    }
-    return false;
-}
 int main()
 {
     ll n, m, k;
@@ -42,18 +16,25 @@ int main()
     {
         cin >> b[i];
     }
+    sort(a.begin(), a.end());
     sort(b.begin(), b.end());
     ll ans = 0;
-    for (ll i = 0; i < n; i++)
+    ll i = 0, j = 0;
+    while (i < n && j < m)
     {
-        ll low = a[i] - k;
-        ll high = a[i] + k;
-        for (ll j = low; j <= high; j++)
+        if (b[j] < a[i] - k)
         {
-            if (BS(b, j))
-            {
-                ans++;
-            }
+            j++;
+        }
+        else if (b[j] > a[i] + k)
+        {
+            i++;
+        }
+        else
+        {
+            ans++;
+            i++;
+            j++;
         }
     }
     cout << ans << endl;
