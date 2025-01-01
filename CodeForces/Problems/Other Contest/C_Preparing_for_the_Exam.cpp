@@ -5,7 +5,9 @@
 using namespace std;
 void solve()
 {
-    
+    ll n,m,k;
+    cin>>n>>m>>k;
+    vector<ll> a(n);
 }
 int main()
 {
