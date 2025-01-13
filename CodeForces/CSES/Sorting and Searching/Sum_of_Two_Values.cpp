@@ -3,40 +3,25 @@
 #define ll long long
 #define MOD 1000000007
 using namespace std;
-// int main()
-// {
-//     ll n, x;
-//     cin >> n >> x;
-//     vector<ll> v(n);
-//     for (ll i = 0; i < n; i++)
-//     {
-//         cin >> v[i];
-//     }
-    
-//     cout << "IMPOSSIBLE" << endl;
-//     return 0;
-// }
-
-string findLexicographicallyLargest(string word, int numFriends) {
-    int n = word.size();
-    string largest = "";
-    
-    for (int i = 0; i <= n - numFriends+1; ++i) {
-        string current = word.substr(i, n - i);
-        if (current > largest) {
-            largest = current;
-        }
+int main()
+{
+    ll n, x;
+    cin >> n >> x;
+    vector<ll> v(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> v[i];
     }
-    
-    return largest;
-}
-
-int main() {
-    string word;
-    int numFriends;
-    cin >> word >> numFriends;
-    
-    cout << findLexicographicallyLargest(word, numFriends) << endl;
-    
+    map<ll, ll> m;
+    for (int i = 0; i < n; i++)
+    {
+        if (m.find(x - v[i]) != m.end())
+        {
+            cout << m[x - v[i]] + 1 << " " << i + 1 << endl;
+            return 0;
+        }
+        m[v[i]] = i;
+    }
+    cout << "IMPOSSIBLE" << endl;
     return 0;
 }
